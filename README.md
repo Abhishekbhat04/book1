@@ -17,8 +17,9 @@ docker build -t my-apache-server .
 Step 5: Run the Docker Container 
 docker run -p 8080:80 -d my-apache-server 
 
-
-
+6th
+ Add a "String Parameter" named GIT_REPO_URL and set its default value to 
+your Git repository URL.
 Step 4: Configure Build Steps 
 
 # Remove the existing container if it exists 
